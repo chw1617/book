@@ -1,0 +1,18 @@
+.heart-wrap{
+   width: 48rpx;
+  height: 28rpx;
+  position: relative;
+}
+.heart-wrap .heart{
+  /* rpx是屏幕适配的像素 */
+  /* px是固定像素 */
+  /* 根据需求选择自己想要的像素单位 */
+  width: 32rpx;
+  height: 28rpx;
+}
+.heart-wrap text{
+  font-size: 24rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
