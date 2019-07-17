@@ -1,0 +1,5 @@
+<view class="movieWrap">
+<image src="{{img}}" class="img1"/>
+<image src="../images/movie/movie@tag.png" class="img2"/>
+<text class="text">{{content}}</text>
+</view>

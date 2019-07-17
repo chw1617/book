@@ -1,4 +1,5 @@
-<view class="heart-wrap">
-  <image src="../images/heart.png" class="heart"></image>
-  <text>9</text>
+<view class="heart-wrap" bindtap="onLike">
+  <!-- 组件中的数据可以是来自data，也可以是property -->
+  <image src="{{like==true?yesImg:noImg}}" class="heart"></image>
+  <text>{{count}}</text>
 </view>

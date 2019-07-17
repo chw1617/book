@@ -1,4 +1,5 @@
 <view>
-index
-<like-cmp/>
+<!-- 通过子组件属性来传递数据，渲染数据， -->
+<like-cmp like="{{classicData.like_status}}" count="{{classicData.fav_nums}}"/>
+<movie-cmp img="{{classicData.image}}" content="{{classicData.content}}"></movie-cmp>
 </view>

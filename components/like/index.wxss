@@ -1,7 +1,5 @@
 .heart-wrap{
-   width: 48rpx;
-  height: 28rpx;
-  position: relative;
+  display: inline-flex;
 }
 .heart-wrap .heart{
   /* rpx是屏幕适配的像素 */
@@ -12,7 +10,6 @@
 }
 .heart-wrap text{
   font-size: 24rpx;
-  position: absolute;
-  right: 0;
-  top: 0;
+  position: relative;
+  bottom: 15rpx;
 }
